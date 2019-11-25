@@ -26,7 +26,7 @@ public class NumberConverter {
                 result -= a;
                 a = b;
             }
-            if(b == numRome.get(String.valueOf(romStr[romStr.length-1]))){
+            if(i == numRome.get(String.valueOf(romStr[romStr.length-1]))){
                 result += b;
             }
         }
